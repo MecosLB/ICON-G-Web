@@ -1,0 +1,20 @@
+#app {
+    color: var(--black);
+    font-family: var(--font);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.bg-green-aqua {
+    background-color: var(--green-aqua);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
