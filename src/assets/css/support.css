@@ -1,0 +1,55 @@
+#support .hero-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@/assets/images/support/bg-support.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#support .card-body {
+    overflow: auto;
+    max-height: 500px;
+}
+
+.details-accordion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+}
+
+.see-details {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.see-details i {
+    font-size: 20px;
+}
+
+#support .accordion-body {
+    font-size: 12px;
+    border-color: var(--gray);
+}
+
+#support .accordion-collapse.collapse.show {
+    border-color: var(--gray);
+}
+
+#support .accordion-button:not(.collapsed) {
+    background-color: var(--white);
+    border-color: 1px solid var(--gray);
+    box-shadow: none;
+    color: var(--black);
+}
+
+#support .accordion-button:focus {
+    box-shadow: none;
+}
+
+#support .accordion-button::after {
+    background-image: none;
+}

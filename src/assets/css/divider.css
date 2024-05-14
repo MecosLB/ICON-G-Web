@@ -1,7 +1,11 @@
 .divider-icong {
-    height: 3px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 6px;
 }
 
-.divider-icong span { 
-    width: 50px;
+.divider-icong > span { 
+    width: 100px;
+    height: 100%;
 }

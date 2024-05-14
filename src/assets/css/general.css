@@ -18,3 +18,58 @@
 .bg-pink {
     background-color: var(--pink);
 }
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+/* Scroolbar */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--black);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--black);
+}
+
+/* Scroolbar */
+
+.title-view {
+    text-align: center;
+}
+
+.title-view h6 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+}
+
+.hero-text h4 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+    .hero-text {
+        left: 50%;
+    }
+}
