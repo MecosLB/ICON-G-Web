@@ -1,0 +1,91 @@
+#services .hero-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@/assets/images/services/bg-services.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.grid-circles {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.circle-service {
+    position: relative;
+    background-color: var(--black);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 20px;
+}
+
+.circle-bottom {
+    height: 10%;
+    width: 10%;
+}
+
+.list-group,
+.list-group-item {
+    align-content: center;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: var(--white) !important;
+    font-size: 7px;
+}
+
+.list-group-item i {
+    font-size: 2px;
+}
+
+.rectangle-pink {
+    text-align: end;
+    background-color: var(--pink);
+    height: 50px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 50%;
+}
+
+#services h6 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.list-services .list-group,
+.list-services .list-group-item {
+    font-size: 10px;
+}
+
+.list-objects .list-group,
+.list-objects .list-group-item {
+    font-size: 12px;
+}
+
+.filter-bw {
+    filter: grayscale(1);
+}
+
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@/assets/images/services/list-services.jpg');
+}
+
+@media only screen and (max-width: 992px) {
+    .grid-circles {
+        flex-direction: column;
+    }
+
+    .rectangle-pink {
+        display: none;
+    }
+}
