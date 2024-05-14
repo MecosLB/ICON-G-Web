@@ -1,0 +1,30 @@
+#home .hero-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@/assets/images/services/bg-services.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#home .hero-text {
+    left: 35%;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.mb-section {
+    border-bottom: 1px solid #CECDCD;
+}
+
+.system,
+.system h6 {
+    color: var(--white);
+}
+
+.system .list-group,
+.system .list-group-item {
+    font-size: 10px;
+}
