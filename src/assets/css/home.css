@@ -19,12 +19,20 @@
     border-bottom: 1px solid #CECDCD;
 }
 
-.system,
-.system h6 {
-    color: var(--white);
+#home h6 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .system .list-group,
 .system .list-group-item {
     font-size: 10px;
+}
+
+.bl-gray {
+    border-left: 2px solid var(--gray);
+}
+
+.br-gray {
+    border-right: 2px solid var(--gray);
 }
