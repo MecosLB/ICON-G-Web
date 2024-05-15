@@ -18,15 +18,17 @@
                     </li>
 
                     <li class="nav-item">
-                        <router-link :to="{ name: 'about' }" class="nav-link">
+                        <!-- <router-link :to="{ name: 'about' }" class="nav-link">
                             Nosotros
-                        </router-link>
+                        </router-link> -->
+                        <a class="nav-link" @click="goTo('about')"> Nosotros </a>
                     </li>
 
                     <li class="nav-item">
-                        <router-link :to="{ name: 'system' }" class="nav-link">
+                        <!-- <router-link :to="{ name: 'system' }" class="nav-link">
                             Sistema
-                        </router-link>
+                        </router-link> -->
+                        <a class="nav-link" @click="goTo('system')"> Sistema </a>
                     </li>
 
                     <li class="nav-item">
@@ -57,3 +59,10 @@
         </div>
     </nav>
 </template>
+
+<script setup>
+const goTo = (to) => {
+    const element = document.getElementById(to);
+    element.scrollIntoView();
+}
+</script>
