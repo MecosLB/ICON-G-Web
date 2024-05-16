@@ -17,19 +17,17 @@
                         </router-link>
                     </li>
 
-                    <li class="nav-item">
-                        <!-- <router-link :to="{ name: 'about' }" class="nav-link">
+                    <!-- <li class="nav-item">
+                        <router-link :to="{ name: 'about' }" class="nav-link">
                             Nosotros
-                        </router-link> -->
-                        <a class="nav-link" @click="goTo('about')"> Nosotros </a>
-                    </li>
+                        </router-link>
+                    </li> -->
 
-                    <li class="nav-item">
-                        <!-- <router-link :to="{ name: 'system' }" class="nav-link">
+                    <!-- <li class="nav-item">
+                        <router-link :to="{ name: 'system' }" class="nav-link">
                             Sistema
-                        </router-link> -->
-                        <a class="nav-link" @click="goTo('system')"> Sistema </a>
-                    </li>
+                        </router-link>
+                    </li> -->
 
                     <li class="nav-item">
                         <router-link :to="{ name: 'services' }" class="nav-link">
@@ -50,9 +48,10 @@
                     </li>
 
                     <li class="nav-item nav-item-join">
-                        <router-link :to="{ name: 'join' }" class="nav-link">
+                        <!-- <router-link :to="{ name: 'join' }" class="nav-link">
                             Únete
-                        </router-link>
+                        </router-link> -->
+                        <a href="https://bolsa-testing.puntochg.com/" target="_blank" class="nav-link"> Únete </a>
                     </li>
                 </ul>
             </div>

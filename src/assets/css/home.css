@@ -11,6 +11,10 @@
     left: 35%;
 }
 
+.mt-150 {
+    margin-top: 150px;
+}
+
 .fs-10 {
     font-size: 10px;
 }
@@ -30,9 +34,21 @@
 }
 
 .bl-gray {
-    border-left: 2px solid var(--gray);
+    border-left: 2px solid #CECDCD;
 }
 
 .br-gray {
-    border-right: 2px solid var(--gray);
+    border-right: 2px solid #CECDCD;
+}
+
+.bl2-gray {
+    border-left: 1px solid #CECDCD;
+}
+
+.br2-gray {
+    border-right: 1px solid #CECDCD;
+}
+
+.bottom-fix {
+    bottom: -100px;
 }

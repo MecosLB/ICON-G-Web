@@ -1,13 +1,78 @@
 <template>
     <section id="home">
-        <div class="hero-image">
-            <div class="hero-text">
-                <h4 class="mb-5"> Sistema Consolidado de Información Gubernamental </h4>
-                <Divider />
+        <div class="position-relative">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h4 class="mb-5"> Sistema Consolidado de Información Gubernamental </h4>
+                    <Divider />
+                </div>
+            </div>
+
+            <div class="container d-flex align-items-center justify-content-center">
+                <div class="container d-flex align-items-center justify-content-center position-absolute bottom-fix">
+                    <div class="col-12 col-sm-12 col-md-4 align-content-center">
+                        <div class="row mb-3 text-center">
+                            <i class="fa-solid fa-chart-line text-white"></i>
+                        </div>
+                        
+                        <div class="bg-black p-5">
+                            <h6 class="text-white fw-bold"> Valores </h6>
+                            <p class="fs-10 text-white">
+                                Brindamos a nuestros clientes la información oportuna que les permite tomar
+                                las decisiones y así lograr cristalizar las oportunidades que el mercado les ofrece.
+                                El diseño de nuestra aplicación ICON-G es un factor muy importante para el
+                                Sector Público dando cumplimiento a la Ley General de Contabilidad
+                                Gubernamental así como los lineamientos del CONAC, además de cumplir con
+                                ley de Disciplina Financiera, creando soluciones eficientes y eficaces para
+                                quienes las manejan.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 align-content-center">
+                        <div class="row mb-3 text-center">
+                            <i class="fa-solid fa-binoculars text-white"></i>
+                        </div>
+                        
+                        <div class="bg-black bl2-gray br2-gray p-5">
+                            <h6 class="text-white fw-bold"> Visión </h6>
+                            <p class="fs-10 text-white">
+                                Nos enfocamos en la mejora continua de nuestra aplicación, las cuales son
+                                revisadas por nuestro equipo para ser implementadas de acuerdo con los
+                                requerimientos NORMATIVOS y está en constante actualización.
+                            </p>
+
+                            <p class="fs-10 text-white">
+                                Buscamos cumplir con las expectativas de nuestros clientes en cada proyecto,
+                                por lo que proporcionamos un servicio con un alto sentido de responsabilidad y
+                                compromiso.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-4 align-content-center">
+                        <div class="row mb-3 text-center">
+                            <i class="fa-solid fa-bullseye text-white"></i>
+                        </div>
+
+                        <div class="bg-black p-5">
+                            <h6 class="text-white fw-bold"> Misión </h6>
+                            <p class="fs-10 text-white">
+                                Ofrecemos soluciones administrativas innovadoras, adaptables a las necesidades
+                                de nuestros clientes, para fomentar su desarrollo y crecimiento, mediante un
+                                equipo de profesionales en Tecnologías de Información altamente competitivo.
+                                Seguimos construyendo nuestro futuro, siendo una empresa competitiva que
+                                ofrece servicios de la más alta calidad y eficiencia en México, gracias a nuestro
+                                sistema de información consolidada de Gobierno (ICON G), generando relaciones
+                                duraderas con nuestros clientes, proveedores y nuestro equipo de trabajo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <section id="about" class="container mt-5 mb-5">
+        <section id="about" class="container mt-150 mb-5">
             <div class="row title-view">
                 <h6 class=""> Soluciones </h6>
                 <h6 class=""> Administrativas Inovadoras </h6>
@@ -51,7 +116,7 @@
             <div class="container system mt-5 mb-5">
                 <div class="row flex-wrap align-items-center justify-content-center gap-3">
                     <div v-for="characteristic in characteristicsSystem" class="col-12 col-sm-12 col-md-3">
-                        <div class="card rounded-0 bg-dark">
+                        <div class="card rounded-0 bg-black">
                             <div class="card-body">
                                 <h6 class="text-white"> {{ characteristic.title }} </h6>
 
@@ -89,7 +154,7 @@
                         </div>
 
                         <div
-                            class="col-12 col-sm-12 col-md-12 p-5 h-50 bg-dark d-flex align-items-center justify-content-center">
+                            class="col-12 col-sm-12 col-md-12 p-5 h-50 bg-black d-flex align-items-center justify-content-center">
                             <div class="col-12 col-sm-12 col-md-6">
                                 <ul v-for="item in list1" class="list-group">
                                     <li class="list-group-item p-0 fs-6">
